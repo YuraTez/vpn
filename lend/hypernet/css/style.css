@@ -100,8 +100,9 @@ body{
   position: absolute;
   content: "";
   top: 78px;
-  left: 50%;
-  transform: rotate(90deg) translate(0 , 50%);
+  left: 0;
+  transform: translate(0 , 50%);
+  max-width: 100%;
   width: 500px;
   height: 500px;
 /*  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%,
