@@ -101,9 +101,7 @@ body{
   content: "";
   top: 78px;
   left: 0;
-  transform: translate(0 , 50%);
   max-width: 100%;
-  width: 500px;
   height: 500px;
 /*  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%,
   rgba(164, 203, 249, 0.50) 0%,
@@ -187,12 +185,12 @@ body{
 .main:before{
   position: absolute;
   content: "";
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   opacity: 0.3;
  /* background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, #A4CBF9 0%, #00FFD1 30.91%, #02362A 100%);*/
-  left: -77px;
+  left: 0;
   top: 55px;
   transform: rotate(90deg);
 
@@ -215,12 +213,12 @@ body{
 
 .work:before{
   position: absolute;
-  right: -45px;
+  right: 0px;
   top: -140px;
 
   content: "";
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   /*
   background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
   */
@@ -229,12 +227,12 @@ body{
 
 .work:after{
   position: absolute;
-  left: -201px;
+  left: -0;
   bottom: 0;
 
   content: "";
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   /*
   background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
   */
@@ -289,11 +287,9 @@ body{
 .faq:before{
   position: absolute;
   content: "";
-  width: 400px;
-  height: 400px;
-  transform: rotate(90deg);
-  right: -230px;
-  top: -98px;
+  width: 200px;
+  height: 200px;
+ left: 0;
   /*
   background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
   */
@@ -526,14 +522,14 @@ body{
 .questions-block:after{
   position: absolute;
   content: "";
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 300px;
   opacity: 0.3;
   /*
   background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, #A4CBF9 0%, #00FFD1 30.91%, #02362A 100%);
   */
-  left: -130px;
+  left: 0;
   top: 0;
 
 }
@@ -568,12 +564,11 @@ body{
 
 .info-list--page:before{
   position: absolute;
-  left: -71px;
+  left: 0;
   top: -130px;
   content: "";
-  width: 300px;
-  height: 300px;
-  transform: rotate(90deg);
+  width: 200px;
+  height: 200px;
   border-radius: 300px;
   opacity: 0.3;
   /*
