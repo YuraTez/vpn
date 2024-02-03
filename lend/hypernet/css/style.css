@@ -169,7 +169,20 @@ body{
   padding: 0 0 100px;
 }
 
-
+.main:before{
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  opacity: 0.3;
+  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, #A4CBF9 0%, #00FFD1 30.91%, #02362A 100%);
+  filter: blur(50px);
+  left: -77px;
+  top: 55px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
 
 .section-title{
   max-width: 340px;
@@ -186,7 +199,31 @@ body{
   position: relative;
 }
 
+.work:before{
+  position: absolute;
+  right: -45px;
+  top: -140px;
+  z-index: -1;
+  content: "";
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
+  opacity: 0.4;
+  filter: blur(48.309608459472656px);
+}
 
+.work:after{
+  position: absolute;
+  left: -201px;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
+  opacity: 0.4;
+  filter: blur(48.309608459472656px);
+}
 
 .work-list{
   display: flex;
@@ -233,7 +270,19 @@ body{
   padding: 88px 0 32px;
 }
 
-
+.faq:before{
+  position: absolute;
+  content: "";
+  width: 400px;
+  height: 400px;
+  transform: rotate(90deg);
+  right: -230px;
+  top: -98px;
+  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, rgba(164, 203, 249, 0.50) 0%, rgba(0, 255, 209, 0.50) 30.91%, rgba(2, 54, 42, 0.50) 100%);
+  opacity: 0.4;
+  filter: blur(48.309608459472656px);
+  z-index: -1;
+}
 
 .faq-el{
   padding: 20px 12px;
@@ -499,7 +548,20 @@ body{
   margin: 20px 0 20px;
 }
 
-
+.info-list--page:before{
+  position: absolute;
+  left: -71px;
+  top: -130px;
+  content: "";
+  width: 300px;
+  height: 300px;
+  transform: rotate(90deg);
+  border-radius: 300px;
+  opacity: 0.3;
+  background: radial-gradient(51.66% 106.57% at 95.92% 46.6%, #A4CBF9 0%, #00FFD1 30.91%, #02362A 100%);
+  filter: blur(50px);
+  z-index: -1;
+}
 
 .info-list--page .info-list__item {
   display: flex;
